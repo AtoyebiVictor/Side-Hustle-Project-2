@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@150&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    top: 25px;
+    background: #E5E5E5;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Mulish', sans-serif;
+}
+
+#sidebar {
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    background: black;
+    border-radius: 15px;
+    box-shadow: 30px 25px 50px rgb(174,174,174);
+}
+#sidebar li:hover {
+    color: peru;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+li {
+    padding: 35px 10px;
+    margin: 0;
+    list-style-type: none;
+}
+img {
+    width: 30px;
+    height: 25px;
+    margin: 0 5px;
+}
+
+.header {
+    position: absolute;
+    height: 100%;
+    left: 150px;
+    margin: 35px;
+}
+.header h3 {
+    font-size: 40px;
+    color: peru;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+.header table {
+    border: none;
+    width: 100%;;
+}
+.header img {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 224px;
+    height: 200px;
+    padding: 5px;
+}
+.header table tr td p {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 85px;
+    padding-top: 5px;
+}
+button {
+    margin: 15px;
+    padding: 5px 30px;
+    border: 1px solid black;
+    background-color: black;
+    transition: .3s;
+}
+button:hover {
+    transform: scale(1.1);
+}
+a {
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+}
